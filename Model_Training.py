@@ -190,7 +190,7 @@ plt.scatter(y_test, y_pred)
 plt.title("ElasticNet: Actual vs Predicted")
 plt.show()
 
-# 14. ElasticNetC
+# 14. ElasticNetCV
 
 elasticcv = ElasticNetCV(cv=5)
 elasticcv.fit(X_train_scaled, y_train)
